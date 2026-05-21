@@ -30,7 +30,7 @@ Click the **Open in Colab** button above. The notebook will open in your browser
 
 **2. Run all cells**
 
-Go to **Runtime → Run all** in the top menu. The environment will set up automatically.
+Go to **Runtime → Run all** in the top menu. The environment will set up automatically. **Optionally** adjust the BLASTp parameters in Step 1 of the notebook before running.
 
 **3. Upload your FASTA files**
 
