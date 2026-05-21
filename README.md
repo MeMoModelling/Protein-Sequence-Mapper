@@ -20,7 +20,7 @@ Please see the LICENSE file for the full terms and disclaimer of warranty.
 ### What you need
 - A Google account
 - Your **model protein FASTA** (`.faa`) — protein sequences from your metabolic model
-- Your **genome coding sequences** (`.fna`) — DNA nucleotide FASTA file for the same species
+- Your **genome coding sequences** (`.faa` / `.fna`) — DNA nucleotide FASTA file for the same species
 
 ### Steps
 
