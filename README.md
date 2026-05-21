@@ -20,7 +20,7 @@ Please see the LICENSE file for the full terms and disclaimer of warranty.
 ### What you need
 - A Google account
 - Your **model protein FASTA** (`.faa`) — protein sequences from your metabolic model
-- Your **genome protein FASTA** (`.faa`) — protein sequences for the same species
+- Your **genome coding sequences** (`.fna`) — DNA nucleotide FASTA file for the same species
 
 ### Steps
 
@@ -35,12 +35,12 @@ Go to **Runtime → Run all** in the top menu. The environment will set up autom
 **3. Upload your FASTA files**
 
 When prompted, upload your files:
-- First: your **model protein FASTA** (query sequences)
-- Second: your **genome protein FASTA** (database sequences)
+- First: your **model protein FASTA** (`.faa`) — protein sequences from the metabolic model
+- Second: your **genome coding sequences** (`.fna`) — DNA nucleotide FASTA file from the reference genome
 
 **4. Download the output CSV**
 
-When complete, find the output file in the **Files panel on the left** (📁). Right-click it and select **Download**.
+When complete, click the download button that appears at the bottom of the notebook.
 
 The file will be named `<species>_protein_id_mapping.csv`.
 
@@ -65,10 +65,8 @@ The output is a two-column CSV mapping your model protein IDs to their matched g
 
 | Column | Description |
 |---|---|
-| `identifier_query` | Model protein/gene ID |
-| `identifier_db` | Matched genome protein ID |
-
-![Output example](https://raw.githubusercontent.com/MeMoModelling/proteinSeqMapping/main/preview_protein_id_mapping.png)
+| `model_gene_id` | Model protein/gene ID |
+| `genome_gene_id` | Matched genome protein ID |
 
 ---
 
