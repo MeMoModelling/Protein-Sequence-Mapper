@@ -36,7 +36,7 @@ Click the **Open in Colab** button above. The notebook will open in your browser
 
 When prompted, upload your files:
 - First: your **model protein FASTA** (`.faa`) — protein sequences from the metabolic model
-- Second: your **genome coding sequences** (`.fna`) — DNA nucleotide FASTA file from the reference genome
+- Second: your **genome coding sequences** (`.faa` / `.fna`) — DNA nucleotide FASTA file from the reference genome
 
 **4. Download the output CSV**
 
