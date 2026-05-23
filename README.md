@@ -20,7 +20,7 @@ Please see the LICENSE file for the full terms and disclaimer of warranty.
 ### What you need
 - A Google account
 - Your **model protein FASTA** (`.faa`) — protein sequences from your metabolic model
-- Your **genome coding sequences** (`.faa` / `.fna`) — DNA nucleotide FASTA file for the same species
+- Your **reference genome protein sequences** (`.faa`) — protein sequences for the same species
 
 ### Steps
 
@@ -30,13 +30,13 @@ Click the **Open in Colab** button above. The notebook will open in your browser
 
 **2. Run all cells**
 
-**Optionally** adjust the BLASTp parameters. Go to **Runtime → Run all** in the top menu. The environment will set up automatically.
+Go to **Runtime → Run all** in the top menu. The environment will set up automatically. Optionally adjust the BLASTp parameters in Step 1 of the notebook before running (defaults recommended).
 
 **3. Upload your FASTA files**
 
 When prompted, upload your files:
 - First: your **model protein FASTA** (`.faa`) — protein sequences from the metabolic model
-- Second: your **genome coding sequences** (`.faa` / `.fna`) — DNA nucleotide FASTA file from the reference genome
+- Second: your **genome coding sequences** (`.fna`) — DNA nucleotide FASTA file from the reference genome
 
 **4. Download the output CSV**
 
